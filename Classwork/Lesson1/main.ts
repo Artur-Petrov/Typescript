@@ -5,3 +5,4 @@
 // }
 
 let a: string = 'hello world';
+let b: number = 12;
