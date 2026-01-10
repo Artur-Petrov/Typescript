@@ -1,0 +1,5 @@
+let a: number = 100; // в typescript є сувора типізація
+
+function calc(a: number, b: number): number {
+    return a + b;
+}
