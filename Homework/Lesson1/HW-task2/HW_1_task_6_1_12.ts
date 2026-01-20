@@ -125,10 +125,10 @@
 //
 //  — за допомоги map перетворити кожен елемент на наступний тип {id,title,monthDuration}
 
-type CourseType = {
-    title: string;
-    monthDuration: number;
-}
+// type CourseType = {
+//     title: string;
+//     monthDuration: number;
+// }
 
 // const coursesAndDurationArray: CourseType[] = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
