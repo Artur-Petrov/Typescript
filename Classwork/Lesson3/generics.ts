@@ -33,13 +33,13 @@ interface IDog{
     aka: string;
 }
 
-function foobar<T>(key: string): T {
+function foobarG<T>(key: string): T {
     let objJSON = localStorage.getItem(key);
     if (objJSON){
         return JSON.parse(objJSON) as T;
     }
     return {} as T;
 }
-let iDog = foobar<IDog>('dog');
-let iUserLocalStorage = foobar<IUserLocalStorage>('qwer');
+let iDog = foobarG<IDog>('dog');
+let iUserLocalStorage = foobarG<IUserLocalStorage>('qwer');
 
